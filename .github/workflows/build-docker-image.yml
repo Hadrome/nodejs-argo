@@ -46,7 +46,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # 使用处理后的小写变量 env.REPO_OWNER_LOWERCASE
           tags: |
-            ghcr.io/${{ env.REPO_OWNER_LOWERCASE }}/nodejs-argo:latest
+            ghcr.io/${{ env.REPO_OWNER_LOWERCASE }}/north:2025
           labels: |
             org.opencontainers.image.source=https://github.com/${{ env.REPO_NAME_LOWERCASE }}
             org.opencontainers.image.description=HTTP Server
